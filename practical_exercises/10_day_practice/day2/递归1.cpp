@@ -5,8 +5,8 @@ int f(int n);
 int main(int argc, char const *argv[])
 {   
     cout<<"input x:";
-    int x;
-    cin>>x;
+    int x= 5;
+//    cin>>x;
     cout<<f(x)<<endl;
     system("pause");
     return 0;

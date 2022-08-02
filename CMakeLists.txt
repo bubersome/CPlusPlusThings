@@ -81,7 +81,7 @@ add_executable(C
 #        basic_content/macro/sig_examp.cpp
 #        basic_content/maohao/maohao.cpp
 #        basic_content/pointer_refer/copy_construct.cpp
-        basic_content/pointer_refer/effec.cpp
+#        basic_content/pointer_refer/effec.cpp
 #        basic_content/sizeof/blackclass.cpp
 #        basic_content/sizeof/genA.cpp
 #        basic_content/sizeof/geninhe.cpp
@@ -382,7 +382,7 @@ add_executable(C
 #        practical_exercises/10_day_practice/day2/汉诺塔.cpp
 #        practical_exercises/10_day_practice/day2/结构体.cpp
 #        practical_exercises/10_day_practice/day2/递归1.cpp
-#        practical_exercises/10_day_practice/day2/递归2.cpp
+        practical_exercises/10_day_practice/day2/递归2.cpp
 #        practical_exercises/10_day_practice/day2/静态变量.cpp
 #        practical_exercises/10_day_practice/day3/两数交换.cpp
 #        practical_exercises/10_day_practice/day3/内联函数.cpp
@@ -467,3 +467,7 @@ add_executable(C
 #        tool/output/container.cpp
 #        tool/output/output_container.h)
         )
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} m)
+#.add link library，添加可执行文件所需要的库(命名规则：lib+name+.so),就添加该库的名称
+
