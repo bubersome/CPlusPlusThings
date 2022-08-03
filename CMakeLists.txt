@@ -19,7 +19,7 @@ include_directories(practical_exercises/10_day_practice/day4/拷贝构造函数)
 include_directories(tool/output)
 
 add_executable(abstract
-        basic_content/abstract/abstract.cpp)
+        basic_content/abstract/abstract.cpp Practice/setInteraction.cpp)
 
 add_executable(func_pointer
         basic_content/func_pointer/func_pointer.cpp)
