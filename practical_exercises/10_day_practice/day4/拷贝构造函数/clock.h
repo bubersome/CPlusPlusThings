@@ -4,10 +4,10 @@ class Clock
 {
     public:
         Clock(int NewH,int NewM,int NewS);
-        Clock(Clock &c);//¿½±´¹¹Ôìº¯Êý,Èç¹û²»¼Ó£¬±àÒëÆ÷»á×Ô¶¯Éú³ÉÒ»¸ö¿½±´¹¹Ôìº¯Êý£¬Òò´Ë¼Ó²»¼Ó¶¼¿ÉÒÔÖ±½ÓÊ¹ÓÃ¡£
+        Clock(Clock &c);//æ‹·è´æž„é€ å‡½æ•°,å¦‚æžœä¸åŠ ï¼Œç¼–è¯‘å™¨ä¼šè‡ªåŠ¨ç”Ÿæˆä¸€ä¸ªæ‹·è´æž„é€ å‡½æ•°ï¼Œå› æ­¤åŠ ä¸åŠ éƒ½å¯ä»¥ç›´æŽ¥ä½¿ç”¨ã€‚
         void SetTime(int NewH,int NewM,int NewS);
         void ShowTime();
-        ~Clock();//Îö¹¹º¯Êý£¬±àÒëÆ÷»á×Ô¶¯²úÉúÒ»¸öÄ¬ÈÏµÄÎö¹¹º¯Êý¡£
+        ~Clock();//æžæž„å‡½æ•°ï¼Œç¼–è¯‘å™¨ä¼šè‡ªåŠ¨äº§ç”Ÿä¸€ä¸ªé»˜è®¤çš„æžæž„å‡½æ•°ã€‚
     private:
         int Hour,Minute,Second;
 };
@@ -16,11 +16,11 @@ class Clock
 
 
 /*
-#ifndef   ±êÊ¶·û
-       ³ÌÐò¶Î1
+#ifndef   æ ‡è¯†ç¬¦
+       ç¨‹åºæ®µ1
 #else
-       ³ÌÐò¶Î2
+       ç¨‹åºæ®µ2
 #endif
-Èç¹û¡°±êÊ¶·û¡±Î´±»¶¨Òå¹ý£¬Ôò±àÒë³ÌÐò¶Î1£¬·ñÔò±àÒë³ÌÐò¶Î2¡£
+å¦‚æžœâ€œæ ‡è¯†ç¬¦â€æœªè¢«å®šä¹‰è¿‡ï¼Œåˆ™ç¼–è¯‘ç¨‹åºæ®µ1ï¼Œå¦åˆ™ç¼–è¯‘ç¨‹åºæ®µ2ã€‚
 
 */
