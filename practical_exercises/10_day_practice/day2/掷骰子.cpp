@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
     int flag;
     unsigned seed;
-    cout<<"请输入无符号整数："<<endl;
+    cout<<"seed input"<<endl;
     cin>>seed;
     srand(seed);
     int sum = rolldice();

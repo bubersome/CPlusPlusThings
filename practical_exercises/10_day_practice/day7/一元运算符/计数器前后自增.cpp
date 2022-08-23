@@ -1,4 +1,4 @@
-//Éè¼ÆÒ»¸ö¼ÆÊýÆ÷counter£¬ÓÃÀà³ÉÔ±ÖØÔØ×ÔÔöÔËËã·ûÊµÏÖ¼ÆÊýÆ÷µÄ×ÔÔö£¬ÓÃÓÑÔªÖØÔØÊµÏÖ¼ÆÊýÆ÷µÄ×Ô¼õ¡£
+//è®¾è®¡ä¸€ä¸ªè®¡æ•°å™¨counterï¼Œç”¨ç±»æˆå‘˜é‡è½½è‡ªå¢žè¿ç®—ç¬¦å®žçŽ°è®¡æ•°å™¨çš„è‡ªå¢žï¼Œç”¨å‹å…ƒé‡è½½å®žçŽ°è®¡æ•°å™¨çš„è‡ªå‡ã€‚
 #include<iostream>
 using namespace std;
 class Counter{

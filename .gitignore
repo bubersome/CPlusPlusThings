@@ -1,3 +1,5 @@
 com.sh
-/cmake-build-debug/
-/.idea
+cmake-build-debug/
+.idea
+basic_content/.DS_Store
+.DS_Store
