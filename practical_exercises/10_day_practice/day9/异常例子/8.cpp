@@ -1,3 +1,4 @@
+//GBK
 //Eg10-10.cpp
 #include <iostream>
 using namespace std;
